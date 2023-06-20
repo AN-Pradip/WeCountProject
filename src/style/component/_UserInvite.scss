@@ -1,0 +1,37 @@
+.UserInviteContainer{
+    display: flex;
+    .UserProfileContainer{
+        display: flex;
+        .User{
+            //padding: 0.5vw 0.8vw;
+            padding: 1.2rem;
+            border-radius: 100px;
+            position: relative;
+            margin-right: -10px;
+        }
+        #pinkUser{
+            background-color: #FFEDEF;
+        }
+        #blueUser{
+            background-color: #D3F0F4;
+        }
+        #redUser{
+            background-color: #FC8F9E;
+        }
+    }
+    .InviteButton{
+        background-color: $main-buttons-color;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        padding: 0.8vh 0.8vw;
+        border-radius: 2rem;
+        margin-left: 15px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .InviteButton{
+        align-self: center;
+    }
+}

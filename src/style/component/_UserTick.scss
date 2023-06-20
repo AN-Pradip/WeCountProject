@@ -1,0 +1,12 @@
+.UserTickContainer{
+    color: $secondary-text-color;
+    align-self: center;
+    .Tick{
+        border: solid 1px $secondary-text-color;
+        border-radius: 10px;
+        padding: 0 3px;
+    }
+    .CheckCount{
+        padding-left: 1rem;
+    }
+}

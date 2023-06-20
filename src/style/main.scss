@@ -6,7 +6,10 @@
 //COMPONENTS
 @import "./component/Label";
 @import "./component/TextContainer";
+@import "./component/UserTick";
+@import "./component/UserInvite";
 
 //LAYOUT
 @import "./layout/body";
 @import "./layout/mainContainer";
+@import "./layout/userInteraction";
