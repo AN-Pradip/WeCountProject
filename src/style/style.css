@@ -1,3 +1,25 @@
+.LabelContainer {
+  background-color: #EFEEFF;
+  color: #867EF1;
+  font-weight: bold;
+  border-radius: 20px;
+  width: 8vw;
+  padding: 1vh 0;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .LabelContainer {
+    width: 15vw;
+    padding: 0.5vh 0;
+  }
+}
+@media screen and (max-width: 425px) {
+  .LabelContainer {
+    width: 100%;
+    padding: 0.5vh 1vw;
+  }
+}
 body {
   display: flex;
   flex-direction: column;
@@ -6,13 +28,16 @@ body {
   margin: 0;
   height: 100vh;
   width: 100vw;
+  font-family: "Roboto", sans-serif;
 }
 
 .MainContainer {
   display: flex;
   flex-direction: column;
   border: 1px solid #F5F5F6;
-  border-radius: 25%;
+  border-radius: 5%;
+  width: 25vw;
+  padding: 5% 10%;
 }
 
 /*# sourceMappingURL=style.css.map */
