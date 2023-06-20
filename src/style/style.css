@@ -3,23 +3,11 @@
   color: #867EF1;
   font-weight: bold;
   border-radius: 20px;
-  width: 8vw;
+  width: 12vw;
   padding: 1vh 0;
   text-align: center;
 }
 
-@media screen and (max-width: 768px) {
-  .LabelContainer {
-    width: 15vw;
-    padding: 0.5vh 0;
-  }
-}
-@media screen and (max-width: 425px) {
-  .LabelContainer {
-    width: 100%;
-    padding: 0.5vh 1vw;
-  }
-}
 body {
   display: flex;
   flex-direction: column;

@@ -1,6 +1,6 @@
 function Label() {
     return (
-      <div className="LabelContainer">
+      <div className="LabelContainer" data-testid="LabelTest">
         User Interface
       </div>
     );
