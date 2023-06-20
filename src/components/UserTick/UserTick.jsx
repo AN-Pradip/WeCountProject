@@ -1,8 +1,8 @@
 function UserTick() {
     return (
       <div className="UserTickContainer">
-        <span className="Tick"> &#10003;</span>
-        <span className="CheckCount">0/20</span>
+        <span className="Tick" data-testid="TickTest"> &#10003;</span>
+        <span className="CheckCount" data-testid="CountTest">0/20</span>
       </div>
     );
   }
