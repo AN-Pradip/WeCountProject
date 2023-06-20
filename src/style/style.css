@@ -3,9 +3,25 @@
   color: #867EF1;
   font-weight: bold;
   border-radius: 20px;
-  width: 12vw;
+  width: 8vw;
   padding: 1vh 0;
   text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .LabelContainer {
+    width: 15vw;
+    padding: 0.5vh 0;
+  }
+}
+@media screen and (max-width: 425px) {
+  .LabelContainer {
+    width: 100%;
+    padding: 0.5vh 1vw;
+  }
+}
+.TextContainer p {
+  color: #999BA3;
 }
 
 body {
@@ -24,7 +40,7 @@ body {
   flex-direction: column;
   border: 1px solid #F5F5F6;
   border-radius: 5%;
-  width: 25vw;
+  width: 30vw;
   padding: 5% 10%;
 }
 
