@@ -8,12 +8,26 @@
   text-align: center;
 }
 
+@media screen and (max-width: 768px) {
+  .LabelContainer {
+    width: 15vw;
+    padding: 0.5vh 0;
+  }
+}
+@media screen and (max-width: 425px) {
+  .LabelContainer {
+    width: 30vw;
+    padding: 0.5vh 1vw;
+  }
+}
 .TextContainer p {
   color: #999BA3;
 }
 
 .UserTickContainer {
   color: #999BA3;
+  display: flex;
+  align-items: center;
 }
 .UserTickContainer .Tick {
   border: solid 1px #999BA3;
@@ -31,7 +45,7 @@
   display: flex;
 }
 .UserInviteContainer .UserProfileContainer .User {
-  padding: 0.5vh 0.8vw;
+  padding: 1.2rem;
   border-radius: 100px;
   position: relative;
   margin-right: -10px;
@@ -53,8 +67,45 @@
   padding: 0.8vh 0.8vw;
   border-radius: 2rem;
   margin-left: 15px;
+  cursor: pointer;
 }
 
+@media screen and (min-width: 768px) {
+  .InviteButton {
+    align-self: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .User {
+    border-radius: 100px;
+    position: relative;
+    margin-right: -10px;
+  }
+}
+.PostCommentContainer {
+  display: flex;
+  margin-right: 1vw;
+  align-items: center;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 425px) {
+  .PostCommentContainer {
+    margin-right: 2vw;
+  }
+}
+.PostAttachmentContainer {
+  display: flex;
+  margin-left: 1vw;
+  align-items: center;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 425px) {
+  .PostAttachmentContainer {
+    margin-left: 2vw;
+  }
+}
 body {
   display: flex;
   flex-direction: column;
@@ -75,9 +126,42 @@ body {
   padding: 5% 10%;
 }
 
+@media screen and (max-width: 425px) {
+  .MainContainer {
+    width: 80vw;
+  }
+}
+@media screen and (max-width: 768px) {
+  .MainContainer {
+    width: 55vw;
+  }
+}
 .UserInteractionContainer {
   display: flex;
   justify-content: space-between;
+}
+
+.PostContainer {
+  font-size: 0.7rem;
+  color: #686A75;
+  display: flex;
+  border-radius: 25px;
+  justify-content: space-between;
+  border: 1px solid #DDDEE0;
+  margin-top: 1rem;
+}
+.PostContainer .Separator {
+  margin: 2vh 0;
+  padding: 0px 1px;
+  border-radius: 100px;
+  background-color: #DDDEE0;
+}
+
+.BlackCircle {
+  margin: 0 0.5vw 0 0;
+  padding: 0.5vw;
+  background-color: black;
+  border-radius: 100px;
 }
 
 /*# sourceMappingURL=style.css.map */

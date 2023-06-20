@@ -1,0 +1,21 @@
+.PostContainer{
+    font-size: 0.7rem;
+    color: #686A75;
+    display: flex;
+    border-radius: 25px;
+    justify-content: space-between;
+    border: 1px solid #DDDEE0;
+    margin-top: 1rem;
+    .Separator{
+        margin: 2vh 0;
+        padding: 0px 1px;
+        border-radius: 100px;
+        background-color: #DDDEE0;
+    }
+}
+.BlackCircle{
+    margin: 0 0.5vw 0 0;
+    padding: 0.5vw;
+    background-color: black;
+    border-radius: 100px;
+}

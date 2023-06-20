@@ -1,0 +1,12 @@
+.PostCommentContainer{
+    display: flex;
+    margin-right: 1vw;
+    align-items: center;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 425px) {
+    .PostCommentContainer{
+        margin-right: 2vw;
+    }
+}

@@ -1,5 +1,7 @@
 .UserTickContainer{
     color: $secondary-text-color;
+    display: flex;
+    align-items: center;
     .Tick{
         border: solid 1px $secondary-text-color;
         border-radius: 10px;

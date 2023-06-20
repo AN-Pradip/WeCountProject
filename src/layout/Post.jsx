@@ -5,6 +5,7 @@ function Post() {
     return (
       <div className="PostContainer">
         <PostAttachment />
+        <div className="Separator"></div>
         <PostComment />
       </div>
     );

@@ -1,0 +1,12 @@
+.PostAttachmentContainer{
+    display: flex;
+    margin-left: 1vw;
+    align-items: center;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 425px) {
+    .PostAttachmentContainer{
+        margin-left: 2vw;
+    }
+}

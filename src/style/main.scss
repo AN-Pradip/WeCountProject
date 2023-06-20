@@ -8,8 +8,11 @@
 @import "./component/TextContainer";
 @import "./component/UserTick";
 @import "./component/UserInvite";
+@import "./component/Comment";
+@import "./component/Attachment";
 
 //LAYOUT
 @import "./layout/body";
 @import "./layout/mainContainer";
 @import "./layout/userInteraction";
+@import "./layout/postContainer";

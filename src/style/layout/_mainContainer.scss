@@ -6,3 +6,15 @@
     width: 20vw;
     padding: 5% 10%;
 }
+
+@media screen and (max-width: 425px) {
+    .MainContainer{
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .MainContainer{
+        width: 55vw;
+    }
+}
