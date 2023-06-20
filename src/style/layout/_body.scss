@@ -8,10 +8,3 @@ body{
     width: 100vw;
     font-family: 'Roboto', sans-serif;
 }
-
-@media screen and (max-width: 425px) {
-    body{
-        display: flex;
-        align-items:flex-start;
-    }
-}

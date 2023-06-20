@@ -3,12 +3,6 @@
     flex-direction: column;
     border: 1px solid #F5F5F6;
     border-radius: 5%;
-    width: 30vw;
+    width: 20vw;
     padding: 5% 10%;
-}
-
-@media screen and (max-width: 425px) {
-    .MainContainer{
-        width: 80vw;
-    }
 }
