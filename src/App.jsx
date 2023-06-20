@@ -1,7 +1,9 @@
+import Label from "./components/Label/Label";
+
 function App() {
   return (
     <div className="MainContainer">
-      hello
+      <Label />
     </div>
   );
 }
